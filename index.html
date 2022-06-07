@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to aos (animation scroll page) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Link to css -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Link to font awesome -->
+  <script src="https://kit.fontawesome.com/53bf4710fa.js" crossorigin="anonymous"></script>
+  <title>Harry Potter</title>
+</head>
+
+<body>
+  <!-- "opacity" is the div to darken the background when opening the subscribe section  -->
+  <div class="opacity" id="opacity"></div>
+  <!-- Suscribe Section -->
+  <div class="suscribe" id="suscribe">
+    <div class="suscribe-text">
+      <div class="exit" id="exit">X</div>
+      <h2>SUSCRIBE TO OUR NEWSLETTER</h2>
+      <p>Enter your Email in the form below to access all our news, offers or news and be one of the first to find out.
+        What are you waiting for it?!</p>
+    </div>
+    <div class="suscribe-form">
+      <form action="">
+        <input type="text" placeholder="Enter your email">
+        <button type="submit" id="suscribeBtn">SUSCRIBE</button>
+      </form>
+    </div>
+  </div>
+  <!-- Header  -->
+  <header>
+    <!-- Navbar with social network icons and the menu  -->
+    <nav>
+      <input type="checkbox" id="check">
+      <div class="nav-menu-social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook btn-1" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter btn-2" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram btn-3" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-github btn-4" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube btn-5" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
+      <label for="check" class="bar-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav-menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Principal Characters</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Landpage -->
+    <div class="banner-text">
+      <div>
+        <img src="img/logoharrypotter.png" alt="" class="logo">
+      </div>
+      <h2>WELCOME TO HARRY POTTER FAN PAGE</h2>
+      <h1>AN AWESOME <span>WORLD</span></h1>
+      <div>
+        <a href="#" class="button1" id="button1">SUSCRIBE</a>
+        <a href="#" class="button2">BOOKS NOW</a>
+      </div>
+    </div>
+  </header>
+  <!-- This is the second page "About"  -->
+  <div class="second-page" data-aos="fade-up">
+
+    <h1 id="about">About</h1>
+    <h1 class="titulo-reflejo" id="titulo-reflejo">About</h1>
+    <img class="harry-img" id="harry-png" src="img/harry.png" alt="">
+    <div class="container" id="container">
+      <p class="container-text"><span class="span-inicial">Harry Potter</span> is a series of fantasy novels written by the British author
+        <span>J. K. Rowling</span>, in which the adventures of the young apprentice of magic and sorcery are described
+         <span>Harry Potter</span> and his friends <span>Hermione Granger</span> y <span>Ron
+          Weasley</span>, during the years spent in college <span>Hogwarts of Witchcraft and Wizardry</span>. The plot focuses on the fight between Harry Potter and the evil wizard
+           <span>Lord Voldemort</span>, who murdered Harry's parents in his quest to conquer the wizarding world. <br>
+           Since the release of the first novel, <span>harry potter and the Philosopher's Stone</span> In 1997, the series achieved immense popularity, critical acclaim, and commercial success around the world. By July 2013 they had been sold between
+           <span>400 and 500 million copies</span> of the seven books, which ranks as the book series <span>best-selling in history</span> and which have been translated into<span>more than 65 languages
+           </span>, including Latin and ancient Greek. The seventh and last book, <span>Harry Potter and the Deathly Hallows</span>, was released worldwide in English on July 21, 2007, while in Spanish it was published on February 21, 2008.
+           <br>
+           The success of the novels has made the Harry Potter brand one of the <span>most successful in the world</span>, worth <span>$15 billion</span>, and Rowling the first writer in history to reach the
+            <span>$1 billion</span> in concept of profits thanks to their work. In 2005, she was the ninth person with the highest annual income <span>in the world.</span></p>
+    </div>
+  </div>
+  <!-- This is the third page "Principal Characters"  -->
+  <div class="third-page" data-aos="fade-up">
+    <h1 id="about">Principal Characters</h1>
+    <h1 class="titulo-reflejo-2" id="titulo-reflejo-2">Principal Characters</h1>
+
+    <!-- Card created for each one of the PJ  -->
+    <div class="cards">
+      <div class="card card1">
+        <div class="container-card">
+          <img class="img-card" src="img/harryfondo.jpg" alt="Harry Potter">
+        </div>
+        <div class="details">
+          <h3>Harry James Potter</h3>
+          <p>He is the only person known to have survived the curse of Avada Kedavra, doing so twice.</p>
+        </div>
+      </div>
+
+      <div class="card card2">
+        <div class="container-card">
+          <img class="img-card" src="img/hermionefondo.jpg" alt="Hermione Granger">
+        </div>
+        <div class="details">
+          <h3>Hermione Jean Granger</h3>
+          <p>She is a Muggle-born witch who possesses a brilliant academic mind, and proved to be a gifted student.</p>
+        </div>
+      </div>
+
+      <div class="card card3">
+        <div class="container-card">
+          <img class="img-card" src="img/ronfondo.jpg" alt="Ron Weasley">
+        </div>
+        <div class="details">
+          <h3>Ronald Weasley</h3>
+          <p>He is a pureblood wizard, the sixth and youngest son of Arthur and Molly Weasley.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- This is the Fourth page "Contact Form"  -->
+  <div class="fourth-page" data-aos="fade-up">
+    <div class="container-form">
+      <h1>Contact Form</h1>
+      <div class="content">
+        <div class="info">
+          <div class="col">
+            <i class="icon fas fa-map-marker-alt"></i>
+            <p> Mz 8 casa 43 Jardin Santander</p>
+          </div>
+
+          <div class="col">
+            <i class="icon fas fa-envelope"></i>
+            <p> jefersonmesa13@gmail.com</p>
+          </div>
+
+          <div class="col">
+            <i class="icon fas fa-phone"></i>
+            <p> (+57) 3054009382 <br> (+57) 305999999</p>
+          </div>
+          
+          <div class="networks">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#" class="yt"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <form action="send.html" method="GET" class="form">
+
+          <input type="text" name="name" placeholder="FullName" id="name">
+          <input type="text" name="email" placeholder="Email" id="email">
+          <input type="text" name="subject" placeholder="Subject" id="subject">
+
+          <textarea name="message" id="message" placeholder="Message"></textarea>
+          <button type="button" onclick="validateForm()">Send Message</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link JS to AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Link to Jquery (form)  -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
